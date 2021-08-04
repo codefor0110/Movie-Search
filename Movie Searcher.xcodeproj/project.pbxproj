@@ -13,26 +13,9 @@
 		2D9AB3AF26BAE56800A8920B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9AB3AD26BAE56800A8920B /* Main.storyboard */; };
 		2D9AB3B126BAE56F00A8920B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9AB3B026BAE56F00A8920B /* Assets.xcassets */; };
 		2D9AB3B426BAE56F00A8920B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9AB3B226BAE56F00A8920B /* LaunchScreen.storyboard */; };
-		2D9AB3BF26BAE57000A8920B /* Movie_SearcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9AB3BE26BAE57000A8920B /* Movie_SearcherTests.swift */; };
-		2D9AB3CA26BAE57000A8920B /* Movie_SearcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9AB3C926BAE57000A8920B /* Movie_SearcherUITests.swift */; };
+		2D9AB3D926BB035000A8920B /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9AB3D726BB035000A8920B /* MovieTableViewCell.swift */; };
+		2D9AB3DA26BB035000A8920B /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D9AB3D826BB035000A8920B /* MovieTableViewCell.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2D9AB3BB26BAE57000A8920B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2D9AB39C26BAE56800A8920B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D9AB3A326BAE56800A8920B;
-			remoteInfo = "Movie Searcher";
-		};
-		2D9AB3C626BAE57000A8920B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2D9AB39C26BAE56800A8920B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D9AB3A326BAE56800A8920B;
-			remoteInfo = "Movie Searcher";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2D9AB3A426BAE56800A8920B /* Movie Searcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie Searcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,30 +26,12 @@
 		2D9AB3B026BAE56F00A8920B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D9AB3B326BAE56F00A8920B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D9AB3B526BAE56F00A8920B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D9AB3BA26BAE57000A8920B /* Movie SearcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movie SearcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D9AB3BE26BAE57000A8920B /* Movie_SearcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_SearcherTests.swift; sourceTree = "<group>"; };
-		2D9AB3C026BAE57000A8920B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D9AB3C526BAE57000A8920B /* Movie SearcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movie SearcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D9AB3C926BAE57000A8920B /* Movie_SearcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_SearcherUITests.swift; sourceTree = "<group>"; };
-		2D9AB3CB26BAE57000A8920B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D9AB3D726BB035000A8920B /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		2D9AB3D826BB035000A8920B /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2D9AB3A126BAE56800A8920B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D9AB3B726BAE57000A8920B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D9AB3C226BAE57000A8920B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				2D9AB3A626BAE56800A8920B /* Movie Searcher */,
-				2D9AB3BD26BAE57000A8920B /* Movie SearcherTests */,
-				2D9AB3C826BAE57000A8920B /* Movie SearcherUITests */,
 				2D9AB3A526BAE56800A8920B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				2D9AB3A426BAE56800A8920B /* Movie Searcher.app */,
-				2D9AB3BA26BAE57000A8920B /* Movie SearcherTests.xctest */,
-				2D9AB3C526BAE57000A8920B /* Movie SearcherUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,26 +67,10 @@
 				2D9AB3B026BAE56F00A8920B /* Assets.xcassets */,
 				2D9AB3B226BAE56F00A8920B /* LaunchScreen.storyboard */,
 				2D9AB3B526BAE56F00A8920B /* Info.plist */,
+				2D9AB3D726BB035000A8920B /* MovieTableViewCell.swift */,
+				2D9AB3D826BB035000A8920B /* MovieTableViewCell.xib */,
 			);
 			path = "Movie Searcher";
-			sourceTree = "<group>";
-		};
-		2D9AB3BD26BAE57000A8920B /* Movie SearcherTests */ = {
-			isa = PBXGroup;
-			children = (
-				2D9AB3BE26BAE57000A8920B /* Movie_SearcherTests.swift */,
-				2D9AB3C026BAE57000A8920B /* Info.plist */,
-			);
-			path = "Movie SearcherTests";
-			sourceTree = "<group>";
-		};
-		2D9AB3C826BAE57000A8920B /* Movie SearcherUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2D9AB3C926BAE57000A8920B /* Movie_SearcherUITests.swift */,
-				2D9AB3CB26BAE57000A8920B /* Info.plist */,
-			);
-			path = "Movie SearcherUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,42 +93,6 @@
 			productReference = 2D9AB3A426BAE56800A8920B /* Movie Searcher.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D9AB3B926BAE57000A8920B /* Movie SearcherTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D9AB3D126BAE57000A8920B /* Build configuration list for PBXNativeTarget "Movie SearcherTests" */;
-			buildPhases = (
-				2D9AB3B626BAE57000A8920B /* Sources */,
-				2D9AB3B726BAE57000A8920B /* Frameworks */,
-				2D9AB3B826BAE57000A8920B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2D9AB3BC26BAE57000A8920B /* PBXTargetDependency */,
-			);
-			name = "Movie SearcherTests";
-			productName = "Movie SearcherTests";
-			productReference = 2D9AB3BA26BAE57000A8920B /* Movie SearcherTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2D9AB3C426BAE57000A8920B /* Movie SearcherUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D9AB3D426BAE57000A8920B /* Build configuration list for PBXNativeTarget "Movie SearcherUITests" */;
-			buildPhases = (
-				2D9AB3C126BAE57000A8920B /* Sources */,
-				2D9AB3C226BAE57000A8920B /* Frameworks */,
-				2D9AB3C326BAE57000A8920B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2D9AB3C726BAE57000A8920B /* PBXTargetDependency */,
-			);
-			name = "Movie SearcherUITests";
-			productName = "Movie SearcherUITests";
-			productReference = 2D9AB3C526BAE57000A8920B /* Movie SearcherUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +104,6 @@
 				TargetAttributes = {
 					2D9AB3A326BAE56800A8920B = {
 						CreatedOnToolsVersion = 12.5;
-					};
-					2D9AB3B926BAE57000A8920B = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 2D9AB3A326BAE56800A8920B;
-					};
-					2D9AB3C426BAE57000A8920B = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 2D9AB3A326BAE56800A8920B;
 					};
 				};
 			};
@@ -220,8 +121,6 @@
 			projectRoot = "";
 			targets = (
 				2D9AB3A326BAE56800A8920B /* Movie Searcher */,
-				2D9AB3B926BAE57000A8920B /* Movie SearcherTests */,
-				2D9AB3C426BAE57000A8920B /* Movie SearcherUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,21 +132,8 @@
 			files = (
 				2D9AB3B426BAE56F00A8920B /* LaunchScreen.storyboard in Resources */,
 				2D9AB3B126BAE56F00A8920B /* Assets.xcassets in Resources */,
+				2D9AB3DA26BB035000A8920B /* MovieTableViewCell.xib in Resources */,
 				2D9AB3AF26BAE56800A8920B /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D9AB3B826BAE57000A8920B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D9AB3C326BAE57000A8920B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,40 +146,12 @@
 			files = (
 				2D9AB3AC26BAE56800A8920B /* ViewController.swift in Sources */,
 				2D9AB3A826BAE56800A8920B /* AppDelegate.swift in Sources */,
+				2D9AB3D926BB035000A8920B /* MovieTableViewCell.swift in Sources */,
 				2D9AB3AA26BAE56800A8920B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D9AB3B626BAE57000A8920B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D9AB3BF26BAE57000A8920B /* Movie_SearcherTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D9AB3C126BAE57000A8920B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D9AB3CA26BAE57000A8920B /* Movie_SearcherUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2D9AB3BC26BAE57000A8920B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2D9AB3A326BAE56800A8920B /* Movie Searcher */;
-			targetProxy = 2D9AB3BB26BAE57000A8920B /* PBXContainerItemProxy */;
-		};
-		2D9AB3C726BAE57000A8920B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2D9AB3A326BAE56800A8920B /* Movie Searcher */;
-			targetProxy = 2D9AB3C626BAE57000A8920B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2D9AB3AD26BAE56800A8920B /* Main.storyboard */ = {
@@ -467,86 +325,6 @@
 			};
 			name = Release;
 		};
-		2D9AB3D226BAE57000A8920B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Movie SearcherTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sarthak.Movie-SearcherTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movie Searcher.app/Movie Searcher";
-			};
-			name = Debug;
-		};
-		2D9AB3D326BAE57000A8920B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Movie SearcherTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sarthak.Movie-SearcherTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movie Searcher.app/Movie Searcher";
-			};
-			name = Release;
-		};
-		2D9AB3D526BAE57000A8920B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Movie SearcherUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sarthak.Movie-SearcherUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Movie Searcher";
-			};
-			name = Debug;
-		};
-		2D9AB3D626BAE57000A8920B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Movie SearcherUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sarthak.Movie-SearcherUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Movie Searcher";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -564,24 +342,6 @@
 			buildConfigurations = (
 				2D9AB3CF26BAE57000A8920B /* Debug */,
 				2D9AB3D026BAE57000A8920B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D9AB3D126BAE57000A8920B /* Build configuration list for PBXNativeTarget "Movie SearcherTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D9AB3D226BAE57000A8920B /* Debug */,
-				2D9AB3D326BAE57000A8920B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D9AB3D426BAE57000A8920B /* Build configuration list for PBXNativeTarget "Movie SearcherUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D9AB3D526BAE57000A8920B /* Debug */,
-				2D9AB3D626BAE57000A8920B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
